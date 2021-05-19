@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/style.min.css">
+	<title>Каталог</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<a href="" class="header__logo">
+				<img src="../img/icon/logo.svg" alt="" class="header-logo">
+				<span>Company</span>
+			</a>
+			<div class="info__header">
+				<ul class="info__list">
+					<li>
+						<a href="" class="header__link">
+							<img src="../img/icon/Group.svg" alt="" class="header-logo-icon">
+							<span> 8 (111) 222-33-44</span>
+		
+						</a>
+					</li>
+					<li>
+						<a href="" class="header__link">
+							<img src="../img/icon/clock.svg" alt="" class="header-logo-icon">
+							<span>Пн-Пт 9:00-18:00</span> </a>
+					</li>
+					<li>
+						<a href="" class="header__link">
+							<img src="../img/icon/email.svg" alt="" class="header-logo-icon">
+							<span>order@buhone.ru</span></a>
+					</li>
+					<li>
+						<a href="" class="header__link">
+							<img src="../img/icon/placeholder.svg" alt="" class="header-logo-icon">
+							<span>Москва </span></a>
+					</li>
+					<div class="header__burger">
+						<span></span>
+					</div>
+					<nav class="header__menu">
+						<ul class="header__list">
+							<li>
+								<a href="/html/index.html" class="header__linked">На главную</a>
+							</li>
+							<li>
+								<a href="/html/vopros.html" class="header__linked">Вопросы ответы</a>
+							</li>
+							<li>
+								<a href="/html/katalog.html" class="header__linked">Каталог</a>
+							</li>
+							<li>
+								<a href="/html/contacts.html" class="header__linked">Контакты</a>
+							</li>
+							<li>
+								<a href="/html/services.html" class="header__linked">Наши услуги</a>
+							</li>
+						</ul>
+					</nav>
+				</ul>
+			</div>
+
+			<div class="info__items">
+				<div class="info__button">
+					<button class="button-reg obv">
+						<span>Разместить объявление</span> 
+					</button>
+				</div>
+				<div class="info__search">
+					<img src="../img/icon/search.svg" alt="" class="header-icon header-search">
+					<form action="" class="form__search">
+						<input type="text">
+					</form>
+				</div>
+				<div class="info__button">
+					<button class="button-reg">Вход/Регистрация</button>
+				</div>
+			</div>
+		</header>
+	<div class="main"> 
+	@@include('_menu.html')
+	<div class="katalog">
+		<div class="katalog__title">Каталог компаний</div>
+		<div class="katalog__table">
+			<table>
+				<tr>
+					<td>
+						<select name="vid" id="">
+							<option value="вид деятельности">Вид деятельности</option>
+						</select>
+					</td>
+					<td>						
+						<select name="vid" id="">
+						<option value="Тип налогооблажения">Тип налогооблажения</option>
+					</select>
+				</td>
+					<td>
+						<form action="">
+							<input type="search" placeholder="Поиск по объявлениям">
+						</form>
+					</td>
+					<td>
+						<select name="vid" id="">
+							<option value="Город">Москва</option>
+						</select>
+					</td>
+					<td>
+						<button>Найти</button>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<p>
+			Все объявления в Москве <span>9</span>
+		</p>
+		<div class="katalog__items">
+			<div class="katalog__item">
+				<div class="katalog__item__title">ООО "ИНВЕСТ"</div>
+				<div class="katalog__item__text">
+					Дата регистрации: 20.03.2017 <br>
+					ИФНС №: 7715 	<br>
+					Расчетный счет (банк): ВТБ, Со счетом в банке <br>
+					Цена: 115 000 руб <br>
+				</div>
+				<div class="katalog__item__button">
+					<button onclick="location.href ='/html/karto4ka.html'">Подробнее</button>
+				</div>
+			</div>
+			<div class="katalog__item">
+				<div class="katalog__item__title">ООО "СОЛЯРИС"</div>
+				<div class="katalog__item__text">
+					Дата регистрации: 20.03.2017 <br>
+					ИФНС №: 7715 	<br>
+					Расчетный счет (банк): ВТБ, Со счетом в банке <br>
+					Цена: 115 000 руб <br>
+				</div>
+				<div class="katalog__item__button">
+					<button onclick="location.href ='/html/karto4ka.html'">Подробнее</button>
+				</div>
+			</div>
+			<div class="katalog__item">
+				<div class="katalog__item__title">ООО "ИНВЕСТ"</div>
+				<div class="katalog__item__text">
+					Дата регистрации: 20.03.2017 <br>
+					ИФНС №: 7715 	<br>
+					Расчетный счет (банк): ВТБ, Со счетом в банке <br>
+					Цена: 115 000 руб <br>
+				</div>
+				<div class="katalog__item__button">
+					<button onclick="location.href ='/html/karto4ka.html'">Подробнее</button>
+				</div>
+			</div>
+			<div class="katalog__item">
+				<div class="katalog__item__title">ООО "ИНВЕСТ"</div>
+				<div class="katalog__item__text">
+					Дата регистрации: 20.03.2017 <br>
+					ИФНС №: 7715 	<br>
+					Расчетный счет (банк): ВТБ, Со счетом в банке <br>
+					Цена: 115 000 руб <br>
+				</div>
+				<div class="katalog__item__button">
+					<button onclick="location.href ='/html/karto4ka.html'">Подробнее</button>
+				</div>
+			</div>
+			<div class="katalog__item">
+				<div class="katalog__item__title">ООО "ИНВЕСТ"</div>
+				<div class="katalog__item__text">
+					Дата регистрации: 20.03.2017 <br>
+					ИФНС №: 7715 	<br>
+					Расчетный счет (банк): ВТБ, Со счетом в банке <br>
+					Цена: 115 000 руб <br>
+				</div>
+				<div class="katalog__item__button">
+					<button onclick="location.href ='/html/karto4ka.html'">Подробнее</button>
+				</div>
+			</div>
+			<div class="katalog__item">
+				<div class="katalog__item__title">ООО "ИНВЕСТ"</div>
+				<div class="katalog__item__text">
+					Дата регистрации: 20.03.2017 <br>
+					ИФНС №: 7715 	<br>
+					Расчетный счет (банк): ВТБ, Со счетом в банке <br>
+					Цена: 115 000 руб <br>
+				</div>
+				<div class="katalog__item__button">
+					<button onclick="location.href ='/html/karto4ka.html'">Подробнее</button>
+				</div>
+			</div>
+			<div class="katalog__item">
+				<div class="katalog__item__title">ООО "ИНВЕСТ"</div>
+				<div class="katalog__item__text">
+					Дата регистрации: 20.03.2017 <br>
+					ИФНС №: 7715 	<br>
+					Расчетный счет (банк): ВТБ, Со счетом в банке <br>
+					Цена: 115 000 руб <br>
+				</div>
+				<div class="katalog__item__button">
+					<button onclick="location.href ='/html/karto4ka.html'">Подробнее</button>
+				</div>
+			</div>
+			<div class="katalog__item">
+				<div class="katalog__item__title">ООО "ИНВЕСТ"</div>
+				<div class="katalog__item__text">
+					Дата регистрации: 20.03.2017 <br>
+					ИФНС №: 7715 	<br>
+					Расчетный счет (банк): ВТБ, Со счетом в банке <br>
+					Цена: 115 000 руб <br>
+				</div>
+				<div class="katalog__item__button">
+					<button onclick="location.href ='/html/karto4ka.html'">Подробнее</button>
+				</div>
+			</div>
+			<div class="katalog__item">
+				<div class="katalog__item__title">ООО "ИНВЕСТ"</div>
+				<div class="katalog__item__text">
+					Дата регистрации: 20.03.2017 <br>
+					ИФНС №: 7715 	<br>
+					Расчетный счет (банк): ВТБ, Со счетом в банке <br>
+					Цена: 115 000 руб <br>
+				</div>
+				<div class="katalog__item__button">
+					<button onclick="location.href ='/html/karto4ka.html'">Подробнее</button>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div class="katalog__info">
+			<div class="katalog__info__title">
+				Какие документы вы получите при покупке?
+			</div>
+				<div class="katalog__info__items">
+					<div class="katalog__info__item">
+						<ul>
+							<li>Оригинал устава;</li>
+<li>Решение / протокол о создании;</li>
+<li>Свидетельство ОГРН;</li>
+<li>Свидетельство ИНН;</li>
+<li>Выписка из ЕГРЮЛ;</li>
+<li>Коды статистики;</li>
+<li>Договор аренды на юридический адрес организации;</li>
+
+						</ul>
+					</div>
+					<div class="katalog__info__item">
+						<ul>
+							<li>Договор на банковское обслуживание;</li>
+							<li>Копию карточки с образцами подписи и печати;</li>
+							<li>Ксерокопия паспорта учредителя и директора организации;</li>
+							<li>Корпоративная карта для снятия наличных;</li>
+							<li>Активированный Клиент-банк (носитель ЭЦП);</li>
+						</ul>
+					</div>
+				</div>
+		</div>
+		@@include('_konsylt.html')
+		<div class="katalog__company__why">
+			<div class="katalog__company__why__title">Почему “Company”?	</div>
+				<div class="katalog__company__why__items">
+					<div class="katalog__company__why__item">
+						<ol>
+							<li>Комплексное обслуживание после покупки любой компании</li>
+						
+							<li>Все компании проходят 100% проверку</li>
+						
+							<li>Доставка документов по Москве и в регионы</li>
+							
+						</ol>
+					</div>
+					<div class="katalog__company__why__item">
+						<ol start="4">
+							<li>Оплата любыми способами</li>
+						
+							<li>Бесплатная консультация перед покупкой</li>
+
+							
+						</ol>
+					</div>
+				</div>
+		</div>
+		@@include('_konsylt.html')
+	</div>
+
+	@@include('_footer.html')
+</div>
+
+<script src="../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,168 @@
+.katalog{
+	width: 100%;
+	display: flex;
+	align-items:flex-start;
+	flex-direction: column;
+	.katalog__title{
+		font-size: 50px;
+		font-weight: 700;
+		margin-bottom: 50px;
+	}
+	.katalog__table{
+	table{
+		width: 100%;
+		border:5px solid #e3e3e3;
+		tr{
+			width: 100%;
+			td{
+				max-width:250px;
+				border-right: 2px solid #e3e3e3;
+				&:last-child{
+					border:none;
+				}
+				select{
+					width: 100%;
+					font-size: 17px;
+				}
+				form input{
+					width: 100%;
+					font-size: 20px;
+				}
+				button{
+					width: 100%;
+					font-size: 20px;
+					background:none;
+					border:none;
+					padding: 5px;
+					}
+				}
+			}
+		}
+	}
+	p{
+		margin-top: 10px;
+		font-size: 17px;
+		margin-left: 15px;
+		span{
+			color:darkgray;
+			font-size: 18px;
+		}
+	}
+	.katalog__items{
+		display: flex;
+		margin-top: 50px;
+		width: 100%;
+		flex-wrap: wrap;
+		.katalog__item{
+			display: flex;
+			width: 33.333%;
+			flex-direction: column;
+			text-align: left;
+			margin-bottom: 20px;
+			.katalog__item__title{
+				font-size: 20px;
+				font-weight: 700;
+				margin-bottom: 10px;
+			}
+			.katalog__item__text{
+				text-align: left;
+				margin-bottom: 20px;
+				font-size: 17px;
+				line-height: 22px;
+			}
+			.katalog__item__button{
+				button{
+					height: 40px;
+					width: 120px;
+					color:#fff;
+					background-color:#EB5757;
+					border-radius:8px;
+					transition: 0.4s linear;
+					&:hover {
+						box-shadow: 150px 0 0 0 rgba(0, 0, 0, 0.3) inset;
+					}
+					&:active {
+						box-shadow: 150px 0 0 0 rgba(0, 0, 0, 0.3) inset;
+					}
+				}
+			}
+		}
+		@media only screen and (max-width:640px) {
+			.katalog__item{
+				width: 50%;
+			}	
+		}
+		@media only screen and (max-width:356px) {
+			.katalog__item{
+				width: 100%;
+				text-align: center;
+				align-items: center;
+			}	
+		}
+	}
+}
+@media only screen and (max-width:990px) {
+	.katalog{
+		grid-column: 1/4;
+	}
+}
+.katalog__info{
+	max-width:1400px;
+	display: flex;
+	grid-column: 2 / 3;
+	text-align: left;
+	flex-direction: column;
+	height: 100%;
+	margin-bottom: 50px;
+	.katalog__info__title{
+		font-size: 36px;
+		font-weight: 700;
+	}
+	.katalog__info__items{
+		display: flex;
+		margin-top: 30px;
+		.katalog__info__item{
+			width: 50%;
+			font-size: 25px;
+			li{
+				padding: 10px;
+				list-style-type: disc;
+			}
+		}
+	}
+	@media only screen and (max-width:640px) {
+		.katalog__info__items{
+			flex-direction: column;
+			align-items: center;
+		}	
+	}
+}
+@import "_konsylt.scss";
+.katalog__company__why{
+	grid-column: 2 / 3;
+	max-width:1400px;
+	margin:0 auto;
+	padding: 40px 0px;
+	width: 100%;
+	.katalog__company__why__title{
+		font-size: 40px;
+		margin-bottom: 20px;
+	}
+	.katalog__company__why__items{
+		display: flex;
+		.katalog__company__why__item{
+			width: 50%;
+			font-size: 25px;
+			li{
+				padding: 10px 0px;
+			}
+		}
+
+	}
+	@media only screen and (max-width:640px) {
+		.katalog__company__why__items{
+		flex-direction: column;
+		align-items: center;
+		}	
+	}
+}

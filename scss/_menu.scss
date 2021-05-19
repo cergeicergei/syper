@@ -1,0 +1,44 @@
+.sidebar{
+	.sidebar__list {
+		background-color: #2f80ed;
+		min-width: 134px;
+		max-width: 134px;
+		max-height: 100%;
+		position:fixed;
+		border-radius: 24px;
+		margin-left: 25px;
+		white-space: nowrap;
+		padding-bottom: 20px;
+		padding-top: 50px;
+		z-index: 999;
+		li {
+			display: grid;
+			grid-template: 1fr / 100% 100%;
+			margin-bottom: 30px;
+			text-align: center;
+			align-items: center;
+			&:first-child {
+				padding-bottom: 20px;
+			}
+			&:last-child {
+				display: none;
+			}
+			a {
+				&:hover + span {
+					opacity: 1;
+					width: 200px;
+				}
+			}
+			span {
+				border-radius: 0px 5px 5px 0px;
+				width: 0px;
+				padding: 25px 0px;
+				padding-left: 20px;
+				background-color: #003377;
+				color: #fff;
+				transition: opacity 0.3s linear, width 0.3s linear;
+				opacity: 0;
+			}
+		}
+	}
+}
